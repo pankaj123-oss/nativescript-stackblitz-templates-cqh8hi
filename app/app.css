@@ -1,0 +1,54 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  font-size: 18;
+}
+.main {
+  margin: 20px;
+}
+.log {
+  margin: 20px;
+}
+.img {
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+.imgs {
+  margin: 20px;
+}
+Label {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  margin-top: 30px;
+}
+TextField {
+  border-width: 1px;
+  border-color: black;
+  margin-top: 100px;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+button {
+  background-color: aqua;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sign {
+  margin-left: 800px;
+}
+.tex1 {
+  font-size: 40px;
+  text-align: center;
+}
+.tex {
+  margin-top: 200px;
+  margin-bottom: 150px;
+}

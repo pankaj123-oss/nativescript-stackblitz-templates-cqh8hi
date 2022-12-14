@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="My App" icon="" />
+    <StackLayout class="p-4" class="main">
+        <StackLayout class="img">
+        <Image src="https://upload.wikimedia.org/wikipedia/en/e/ec/Narsee_Monjee_Institute_of_Management_Studies_Logo.png" width="400px" height="400px" class="imgs"/>
+        </StackLayout>
+        <StackLayout class="tex">
+            <Label text="Student Login" class="tex1"/>
+        </StackLayout>
+     <GridLayout rows="auto,auto,auto,auto" column="auto,*" class="log">
+         <Label text="Name" row="0" col="0"/>
+         <TextField text="" row="0" col="1"/>
+         <Label text="Password" row="1" col="0"/>
+         <TextField text="" row="1" col="1"/>
+         <button text="Log In" row="2" colspan="2"/>
+         <Label text="Forgot Password?" row="3" col="0"/>
+         <Label text="Sign In" row="3" col="1" class="sign"/>
+    </GridLayout>
+    </StackLayout>
+</Page>
