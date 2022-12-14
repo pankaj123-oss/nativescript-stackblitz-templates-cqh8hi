@@ -12,7 +12,7 @@
          <TextField text="" row="0" col="1"/>
          <Label text="Password" row="1" col="0"/>
          <TextField text="" row="1" col="1"/>
-         <button text="Log In" row="2" colspan="2"/>
+         <button text="Log In" row="2" colspan="2" tap="onTap"/>
          <Label text="Forgot Password?" row="3" col="0"/>
          <Label text="Sign In" row="3" col="1" class="sign"/>
     </GridLayout>
